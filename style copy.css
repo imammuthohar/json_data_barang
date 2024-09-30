@@ -1,0 +1,106 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+}
+
+form {
+  max-width: 400px; /* Atur lebar maksimum formulir sesuai kebutuhan */
+  margin: 0 auto; /* Pusatkan formulir secara horizontal */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333; /* Warna teks label, sesuaikan dengan kebutuhan */
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="button"] {
+  margin-left: 40px;
+  background-color: #eb6c04; /* Warna latar belakang tombol, sesuaikan dengan kebutuhan */
+  color: #fff; /* Warna teks tombol, sesuaikan dengan kebutuhan */
+  padding: 10px 20px; /* Memberikan ruang di sekitar teks tombol, sesuaikan dengan kebutuhan */
+  border: none; /* Menghapus border bawaan */
+  border-radius: 5px; /* Memberikan sudut yang melengkung pada tombol, sesuaikan dengan kebutuhan */
+  cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+  font-size: 16px; /* Ukuran teks tombol, sesuaikan dengan kebutuhan */
+  margin-right: 10px; /* Memberikan jarak antara tombol */
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-color: #131a95; /* Warna latar belakang tombol saat dihover, sesuaikan dengan kebutuhan */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.tersedia {
+  color: green;
+}
+
+.tidak-tersedia {
+  color: red;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+img {
+  margin-bottom: 10px; /* Sesuaikan margin bawah sesuai kebutuhan */
+}
+
+h2,
+p {
+  margin: 0; /* Menghapus margin bawaan dari browser */
+}
+
+.baris1 {
+  border: none; /* Menghapus border bawaan */
+  height: 5px; /* Ketebalan garis */
+  background-color: #000; /* Warna garis, sesuaikan dengan kebutuhan */
+  margin: 5px 0; /* Memberikan ruang di atas dan di bawah garis, sesuaikan dengan kebutuhan */
+}
+
+.baris2 {
+  border: none; /* Menghapus border bawaan */
+  height: 2px; /* Ketebalan garis */
+  background-color: #000; /* Warna garis, sesuaikan dengan kebutuhan */
+  margin: 2px 0; /* Memberikan ruang di atas dan di bawah garis, sesuaikan dengan kebutuhan */
+}
